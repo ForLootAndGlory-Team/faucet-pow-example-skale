@@ -4,6 +4,10 @@
   "description": "",
   "keywords": [],
   "author": "drikkxeth",
+  "scripts": {
+    "viem": "ts-node faucetViem.ts",
+    "ethersV5": "ts-node faucetEtherV5.ts"
+  },
   "dependencies": {
     "bn.js": "^5.2.1",
     "ethers": "5.7",
