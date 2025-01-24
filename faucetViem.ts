@@ -106,3 +106,8 @@ export default async function getSFUEL(account: `0x${string}`) {
 	});
 	return hash;
 }
+
+// Example usage:
+getSFUEL('0x7131E0A24593a54041277826e9251867f7794ccA')
+    .then(hash => console.log('Transaction sent with hash:', hash))
+    .catch(error => console.error('Failed to send transaction:', error));

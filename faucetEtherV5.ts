@@ -3,7 +3,6 @@ import { BigNumber, BytesLike, ethers } from 'ethers';
 
 const { keccak256, hexlify, isAddress, getAddress } = ethers.utils;
 
-
 const CONTRACT_PAYER_TESTNET_NEBULA = '0x000E9c53C4e2e21F5063f2e232d0AA907318dccb';
 const RPC_NEBULA_TESTNET = 'https://testnet.skalenodes.com/v1/lanky-ill-funny-testnet';
 
